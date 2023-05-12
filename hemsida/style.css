@@ -1,0 +1,51 @@
+/* Bakgrundsfärg och färg på texten i hela dokumentet */
+body {
+	background-color: #f2f2f2;
+	color: #333;
+	font-family: Arial, sans-serif;
+  }
+  
+  /* En blå rubrik med gradient-bakgrund */
+  h1 {
+	background-image: linear-gradient(to right, #4DA0B0 0%, #D39D38 100%);
+	
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+  }
+  
+  /* En grön text med en blå ram runt omkring */
+  p {
+	color: #00cc66;
+	border: 2px solid #0077b3;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 1.5;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+  }
+  
+  /* En rosa knapp med en grön text och vita kanter */
+  button {
+	background-color: #ff3399;
+	color: #00cc66;
+	border: 2px solid #fff;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  /* Hover-effekt för knappen */
+  button:hover {
+	background-color: #fff;
+	color: #ff3399;
+	border: 2px solid #ff3399;
+  }
+  
+ 
+  
